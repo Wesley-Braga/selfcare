@@ -1,0 +1,183 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;1,8..144,200;1,8..144,300;1,8..144,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", serif;
+}
+
+.logoself{
+   
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+   height: 4vw;
+   margin-left: 10%;
+}
+
+.boxmenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85vh;
+
+}
+.imgbanner{
+    width:100%;
+}
+.secondbox{
+   
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 5vh;
+    width: 89vw;
+
+}
+
+section h3{
+    
+    padding: 11%;
+}
+
+.boxcard{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+    
+.card{
+    width: 30vw;
+    height: 55vh;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imgcard{
+    width: 18.1vw;
+    height: 40.8vh;}
+   
+
+.imgcard:hover{ 
+
+    opacity: 0.20;
+    transition: ease-in-out 2s;
+
+}
+
+figure{
+    
+    background-color:#5CA720;
+    height: 19vw;
+    width: 38vh;
+}
+button{
+    width: 5vw;
+    height: 5vh;
+    background-color:#5CA720;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+.boxfinal{
+    height: 25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxcontato{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 20vw;
+
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+    line-height: 4vh;
+}
+.principal{
+    border: solid 1px gray;
+}
+.boxcontato li{
+    list-style: none;
+}
+.boxinput{
+    width: 35vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.form{display: flex;
+    justify-content: end;
+
+}
+.email{
+    width: 24vw;
+    height: 3.9vh;
+    outline: none;
+    padding-left: 10px;
+}
+.email:focus{
+    color: green;
+
+}
+.email:placeholder{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submit{
+   
+    width: 6vw;
+    height: 4vh;
+    background-color: #5CA720;
+    color: white;
+    border: none;
+    border-radius: 0 6px 5px 0;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    right: 0.5vh
+
+}
+
+.logocontato{
+   height: 1vh;
+   padding-left: 2%;
+
+    
+
+}
+.imgpe{
+    width: 2vw;
+    margin: 1%;
+
+   
+
+    
+}
+.pagamento{
+    
+   
+    justify-content: end;
+     display: flex;
+    align-items: center;
+    justify-content: end;
+   height: 4vw;
+   
+
+}
